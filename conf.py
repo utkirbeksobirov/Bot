@@ -1,5 +1,9 @@
 import telebot
-from telebot import types
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
+# Telegram botning tokeni
+TOKEN = os.getenv("TOKEN")
 # Botni tokenini kiriting
-bot = telebot.TeleBot("6708597167:AAGxAPlezO49cubbl939Hc27G5tcCcmTg0c")
+bot = telebot.TeleBot("TOKEN")
