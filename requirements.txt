@@ -1,3 +1,4 @@
+dotenv
 argcomplete==3.3.0
 Beaker==1.12.1
 beautifulsoup4==4.12.3
