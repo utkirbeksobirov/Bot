@@ -5,5 +5,4 @@ load_dotenv()
 
 # Telegram botning tokeni
 TOKEN = os.getenv("TOKEN")
-# Botni tokenini kiriting
 bot = telebot.TeleBot("TOKEN")
